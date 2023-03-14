@@ -10,7 +10,7 @@ snscrape
 ccxt
 You can install them using pip:
 
-'''pip install snscrape ccxt'''
+```pip install snscrape ccxt```
 
 ## Usage
 
@@ -19,6 +19,6 @@ You can install them using pip:
 3. Adjust the if inflation >= X and if inflation <= Y statements in the main loop with the expected inflation rates for long and short trades.
 4. Run the script:
 
-'''python main.py'''
+```python main.py```
 
 The script will continuously monitor Twitter for the latest tweet from Tree News, which contains the latest CPI print. If the tweet starts with "U.S.", the script extracts the inter-year inflation rate and executes a long or short trade on the specified cryptocurrencies if the inflation rate is above or below the expected rates.
