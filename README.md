@@ -8,6 +8,7 @@ This script requires the following Python libraries to be installed:
 
 snscrape
 ccxt
+
 You can install them using pip:
 
 ```pip install snscrape ccxt```
